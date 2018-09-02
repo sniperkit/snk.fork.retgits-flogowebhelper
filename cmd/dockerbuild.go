@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package cmd defines and implements command-line commands and flags
 // used by flogo. Commands and flags are implemented using Cobra.
 package cmd
@@ -12,8 +17,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/retgits/flogowebhelper/util"
 	"github.com/spf13/cobra"
+
+	"github.com/sniperkit/snk.fork.retgits-flogowebhelper/util"
 )
 
 // dockerBuildCmd represents the dockerBuild command

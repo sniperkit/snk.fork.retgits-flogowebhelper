@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package cmd defines and implements command-line commands and flags
 // used by flogo. Commands and flags are implemented using Cobra.
 package cmd
